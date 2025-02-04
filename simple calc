@@ -1,0 +1,47 @@
+Overview
+
+A web-based calculator that supports basic arithmetic operations with an interactive and responsive user interface.
+
+Features
+
+Basic Operations: Addition (+), Subtraction (-), Multiplication (*), Division (/)
+
+Clear Button: Reset the input fields.
+
+Error Handling: Prevent division by zero and invalid inputs.
+
+Bonus Features:
+
+Keyboard input support.
+
+Calculation history (if enabled with a database).
+
+Tech Stack
+
+Frontend: HTML, CSS
+
+Backend: Java (JSP & Servlets)
+
+Database: MySQL (Optional - for storing history)
+
+Version Control: GitHub
+calculator-project/
+│── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.calculator/
+│   │   │   │   ├── CalculatorServlet.java
+│   │   │   │   ├── HistoryServlet.java (Optional)
+│   │   ├── webapp/
+│   │   │   ├── index.jsp
+│   │   │   ├── history.jsp (Optional)
+│   │   │   ├── WEB-INF/
+│   │   │   │   ├── web.xml
+│── static/
+│   ├── css/
+│   │   ├── styles.css
+│   ├── js/
+│   │   ├── script.js
+│── README.md
+│── pom.xml (if using Maven)
+│── database.sql (if using MySQL)
